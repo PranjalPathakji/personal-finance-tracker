@@ -20,7 +20,7 @@ A cross-platform personal finance tracker that helps you track expenses, income,
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/yourname/personal-finance-tracker.git
+git clone https://github.com/PranjalPathakji/personal-finance-tracker.git
 cd personal-finance-tracker
 ```
 
@@ -104,4 +104,4 @@ cdk deploy
 
 ## 📄 License
 
-MIT License © 2025 Your Name
+MIT License © 2025 Pranjal Pathakji
