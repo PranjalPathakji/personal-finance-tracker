@@ -1,36 +1,3 @@
-personal-finance-tracker/
-├── README.md                      # Root project instructions
-├── .gitignore                    # Common ignores for Flutter, Node, CDK
-├── infra/                        # AWS CDK infrastructure as code
-│   ├── bin/
-│   │   └── infra.ts              # CDK app entry point
-│   ├── lib/
-│   │   └── infra-stack.ts        # Define Lambda, API Gateway, DynamoDB
-│   ├── cdk.json
-│   └── package.json              # CDK dependencies
-├── backend/                      # Node.js Lambda handlers
-│   ├── src/
-│   │   ├── expenses.ts           # Lambda for expenses
-│   │   ├── summary.ts            # Lambda for summary endpoints
-│   ├── package.json
-│   └── tsconfig.json
-├── frontend/                     # Flutter project (mobile/web/macos)
-│   ├── lib/
-│   │   ├── main.dart             # Flutter app entry point
-│   │   ├── models/
-│   │   ├── services/
-│   │   └── screens/
-│   ├── android/
-│   ├── ios/
-│   ├── macos/
-│   ├── pubspec.yaml
-│   └── analysis_options.yaml
-├── scripts/                      # Optional helper scripts
-│   └── local-dev.sh              # Script to run local backend and frontend
-└── Makefile                      # Optional: `make run`, `make deploy` etc.
-
----
-
 # 💸 Personal Finance Tracker
 
 A cross-platform personal finance tracker that helps you track expenses, income, credit card transactions, and visualize budgets. Built with Flutter, AWS Lambda, API Gateway, and DynamoDB. Infrastructure managed via AWS CDK.
